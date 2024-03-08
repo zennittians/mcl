@@ -1,0 +1,21 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/winay/go/src/github.com/zennittians/mcl/test/bn_c384_256_test.cpp" "CMakeFiles/bn_c384_256_test.dir/test/bn_c384_256_test.cpp.o" "gcc" "CMakeFiles/bn_c384_256_test.dir/test/bn_c384_256_test.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/winay/go/src/github.com/zennittians/mcl/CMakeFiles/mclbn384_256.dir/DependInfo.cmake"
+  "/home/winay/go/src/github.com/zennittians/mcl/CMakeFiles/mcl.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,231 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmcl.so"
+			],
+			"targetId" : "mcl::@6890427a1f51a3e7e1df",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmcl.a"
+			],
+			"targetId" : "mcl_st::@6890427a1f51a3e7e1df",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmclbn256.so"
+			],
+			"targetId" : "mclbn256::@6890427a1f51a3e7e1df",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmclbn384.so"
+			],
+			"targetId" : "mclbn384::@6890427a1f51a3e7e1df",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmclbn384_256.so"
+			],
+			"targetId" : "mclbn384_256::@6890427a1f51a3e7e1df",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmclbn512.so"
+			],
+			"targetId" : "mclbn512::@6890427a1f51a3e7e1df",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/mcl",
+			"paths" : 
+			[
+				"include/mcl/aggregate_sig.hpp",
+				"include/mcl/ahe.hpp",
+				"include/mcl/array.hpp",
+				"include/mcl/bls12_381.hpp",
+				"include/mcl/bn.h",
+				"include/mcl/bn.hpp",
+				"include/mcl/bn256.hpp",
+				"include/mcl/bn384.hpp",
+				"include/mcl/bn512.hpp",
+				"include/mcl/conversion.hpp",
+				"include/mcl/curve_type.h",
+				"include/mcl/ec.hpp",
+				"include/mcl/ecdsa.hpp",
+				"include/mcl/ecparam.hpp",
+				"include/mcl/elgamal.hpp",
+				"include/mcl/fp.hpp",
+				"include/mcl/fp_tower.hpp",
+				"include/mcl/gmp_util.hpp",
+				"include/mcl/lagrange.hpp",
+				"include/mcl/op.hpp",
+				"include/mcl/operator.hpp",
+				"include/mcl/paillier.hpp",
+				"include/mcl/randgen.hpp",
+				"include/mcl/she.hpp",
+				"include/mcl/util.hpp",
+				"include/mcl/vint.hpp",
+				"include/mcl/window_method.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/mcl/impl",
+			"paths" : 
+			[
+				"include/mcl/impl/bn_c_impl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/cybozu",
+			"paths" : 
+			[
+				"include/cybozu/array.hpp",
+				"include/cybozu/atoi.hpp",
+				"include/cybozu/benchmark.hpp",
+				"include/cybozu/bit_operation.hpp",
+				"include/cybozu/critical_section.hpp",
+				"include/cybozu/crypto.hpp",
+				"include/cybozu/endian.hpp",
+				"include/cybozu/exception.hpp",
+				"include/cybozu/hash.hpp",
+				"include/cybozu/inttype.hpp",
+				"include/cybozu/itoa.hpp",
+				"include/cybozu/link_libeay32.hpp",
+				"include/cybozu/link_mpir.hpp",
+				"include/cybozu/link_ssleay32.hpp",
+				"include/cybozu/mutex.hpp",
+				"include/cybozu/option.hpp",
+				"include/cybozu/random_generator.hpp",
+				"include/cybozu/serializer.hpp",
+				"include/cybozu/sha2.hpp",
+				"include/cybozu/stream.hpp",
+				"include/cybozu/test.hpp",
+				"include/cybozu/unordered_map.hpp",
+				"include/cybozu/xorshift.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

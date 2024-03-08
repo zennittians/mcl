@@ -1,0 +1,1 @@
+/bin/g++ -fPIC  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -shared -Wl,-soname,libmclbn256.so -o lib/libmclbn256.so CMakeFiles/mclbn256.dir/src/bn_c256.cpp.o  -Wl,-rpath,/home/winay/go/src/github.com/zennittians/mcl/build/lib: lib/libmcl.so -lgmp -lgmpxx -lcrypto 

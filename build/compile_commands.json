@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -fPIC -o CMakeFiles/mcl.dir/src/fp.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/fp.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/fp.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/gcc -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include -g -fPIC -o CMakeFiles/mcl.dir/src/asm/x86-64.s.o -c /home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.s",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.s"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/gcc -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include -g -fPIC -o CMakeFiles/mcl.dir/src/asm/x86-64.bmi2.s.o -c /home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.bmi2.s",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.bmi2.s"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/mcl_st.dir/src/fp.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/fp.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/fp.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/gcc -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include -g -o CMakeFiles/mcl_st.dir/src/asm/x86-64.s.o -c /home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.s",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.s"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/gcc -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include -g -o CMakeFiles/mcl_st.dir/src/asm/x86-64.bmi2.s.o -c /home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.bmi2.s",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/asm/x86-64.bmi2.s"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -Dmclbn256_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -fPIC -o CMakeFiles/mclbn256.dir/src/bn_c256.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/bn_c256.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/bn_c256.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/bn_c256_test.dir/test/bn_c256_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/bn_c256_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/bn_c256_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -Dmclbn384_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -fPIC -o CMakeFiles/mclbn384.dir/src/bn_c384.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/bn_c384.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/bn_c384.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/bn_c384_test.dir/test/bn_c384_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/bn_c384_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/bn_c384_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -Dmclbn384_256_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -fPIC -o CMakeFiles/mclbn384_256.dir/src/bn_c384_256.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/bn_c384_256.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/bn_c384_256.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/bn_c384_256_test.dir/test/bn_c384_256_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/bn_c384_256_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/bn_c384_256_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -Dmclbn512_EXPORTS -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -fPIC -o CMakeFiles/mclbn512.dir/src/bn_c512.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/src/bn_c512.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/src/bn_c512.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/bn_c512_test.dir/test/bn_c512_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/bn_c512_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/bn_c512_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/fp_test.dir/test/fp_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/fp_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/fp_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/ec_test.dir/test/ec_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/ec_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/ec_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/fp_util_test.dir/test/fp_util_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/fp_util_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/fp_util_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/window_method_test.dir/test/window_method_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/window_method_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/window_method_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/elgamal_test.dir/test/elgamal_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/elgamal_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/elgamal_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/fp_tower_test.dir/test/fp_tower_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/fp_tower_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/fp_tower_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/gmp_test.dir/test/gmp_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/gmp_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/gmp_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/bn_test.dir/test/bn_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/bn_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/bn_test.cpp"
+},
+{
+  "directory": "/home/winay/go/src/github.com/zennittians/mcl/build",
+  "command": "/bin/g++ -DMCL_USE_LLVM=1 -I/home/winay/go/src/github.com/zennittians/mcl/include  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -o CMakeFiles/glv_test.dir/test/glv_test.cpp.o -c /home/winay/go/src/github.com/zennittians/mcl/test/glv_test.cpp",
+  "file": "/home/winay/go/src/github.com/zennittians/mcl/test/glv_test.cpp"
+}
+]

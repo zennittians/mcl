@@ -1,0 +1,1 @@
+/bin/g++  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -g -rdynamic CMakeFiles/fp_util_test.dir/test/fp_util_test.cpp.o -o bin/fp_util_test  -Wl,-rpath,/home/winay/go/src/github.com/zennittians/mcl/build/lib lib/libmcl.so -lgmp -lgmpxx -lcrypto 
