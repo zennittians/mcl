@@ -1,1 +1,0 @@
-/bin/c++  -std=c++11 -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -O3 -DNDEBUG -march=native -rdynamic CMakeFiles/bn_c384_256_test.dir/test/bn_c384_256_test.cpp.o -o bin/bn_c384_256_test  -Wl,-rpath,/home/winay/go/src/github.com/zennittians/mcl/lib lib/libmclbn384_256.so lib/libmcl.so -lgmp -lgmpxx -lcrypto 
